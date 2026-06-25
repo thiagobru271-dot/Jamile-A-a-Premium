@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-cursive: "Dancing Script", cursive;
+  
+  --color-plum-950: var(--plum-950, #0e051a);
+  --color-plum-900: var(--plum-900, #18092d);
+  --color-plum-800: var(--plum-800, #251245);
+  --color-plum-700: var(--plum-700, #351a5f);
+  --color-plum-600: var(--plum-600, #492482);
+  --color-plum-500: var(--plum-500, #5f31a6);
+  
+  --color-pink-500: var(--primary-500, #ec4899);
+  --color-pink-600: var(--primary-600, #db2777);
+  --color-pink-700: var(--primary-700, #be185d);
+  
+  --color-yellow-400: var(--secondary-400, #fbbf24);
+  --color-yellow-500: var(--secondary-500, #f59e0b);
+  
+  --color-gold-400: var(--secondary-400, #fbbf24);
+  --color-gold-500: var(--secondary-500, #f59e0b);
+}
+
+/* Custom scrollbar to match the premium theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0e051a;
+}
+::-webkit-scrollbar-thumb {
+  background: #251245;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #351a5f;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Jamile Açaí Premium",
+  "description": "Cardápio digital e sistema de pedidos online",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
